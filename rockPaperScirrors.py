@@ -1,10 +1,10 @@
 import random
-print("Winning rules of the game ROCK🪨 PAPER🧻 SCIRRORS✂️ are:\n"
+print("Winning rules of the game ROCK🪨 PAPER🧻 SCISSORS✂️ are:\n"
       + "Rock🪨 vs Paper🧻 -> Paper🧻 wins \n"
-      + "Rock🪨 vs Scirrors✂️ -> Rock🪨 wins \n"
-      + "Paper🧻 vs Scirrors✂️ -> Scirrors✂️ wins \n")
+      + "Rock🪨 vs Scissors✂️ -> Rock🪨 wins \n"
+      + "Paper🧻 vs Scissors✂️ -> Scissors✂️ wins \n")
 while True:
-    print("choices are: \n 1-Rock🪨 \n 2-Paper🧻 \n 3-Scirrors✂️ \n")
+    print("choices are: \n 1-Rock🪨 \n 2-Paper🧻 \n 3-Scissors✂️ \n")
     choice = int(input("Enter your choice:"))
     while choice >3 or choice < 1:
         choice = int(input("Enter a valid choice please :"))
@@ -13,7 +13,7 @@ while True:
     if choice == 2:
         choice_name = 'paper🧻'
     if choice == 3:
-        choice_name = 'Scirrors✂️'
+        choice_name = 'Scissors✂️'
     print('Your choice is:',choice_name)
     print('\n Now its computer choice ')
     comp_choice = random.randint(1, 3)
@@ -22,7 +22,7 @@ while True:
     if comp_choice == 2:
         comp_choice_name = "Paper🧻"
     if comp_choice ==3:
-        comp_choice_name = 'Scirrors✂️'
+        comp_choice_name = 'Scissors✂️'
     print('computer choice is:',comp_choice_name)
     print(choice_name,' vs',comp_choice_name)
     if choice == comp_choice:
@@ -35,7 +35,7 @@ while True:
     if result == 'DRAW':
         print('\n == Its a tie !!! == 🫱🏻‍🫲🏻')
     elif result == 'Win':
-        print('\n== You win !!! ==🎉')
+        print('\n== You win (You beat the computer) !!! ==🎉')
     else:
         print('\n == You lose !!! == 🤭')
     
@@ -44,4 +44,5 @@ while True:
     if ans == "No":
         print('\n Thanks for playing !!! ☺️')
         break
+
    
