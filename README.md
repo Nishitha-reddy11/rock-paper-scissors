@@ -31,5 +31,5 @@ Follow the on-screen instructions and enjoy the game! 😄
 - Add sound effects or animations.
 
 ## ✨ Author
-Developed with ❤️ by M.Nishitha reddy.
+Developed by M.Nishitha reddy.
 Feel free to ⭐ this repo if you like it!
